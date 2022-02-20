@@ -33,6 +33,13 @@ TypeScriptで記述すること
 テストツールは任意のものを用いてよい
 テスト実行時にエラーが発生しないこと
 
+## 注意事項
+- RESAS APIの利用登録(無料)を行い、API Keyを発行する必要がある
+- ソースコードはGitで管理し、作成したソースコードはGitHubにアップロードすること
+- Netlify / GitHub Pages / Firebase hosting / Vercel 等のホスティングサービスにデプロイし、インターネット経由で閲覧できる状態にし、そのURLを提出時に共有すること
+- セキュリティを考慮してコードを記述すること
+- アプリのコンポーネント粒度の設計、Gitコミットメッセージやコミット粒度、ドキュメンテーション等もレビュー対象となる
+- チーム開発を意識してコードを記述すること
 ## 参考
 - RESAS API: https://opendata.resas-portal.go.jp/
 - RESAS API仕様書: https://opendata.resas-portal.go.jp/docs/api/v1/index.html
