@@ -1,4 +1,10 @@
 export default {
+
+  publicRuntimeConfig: {
+    RESAS_API_KEY: process.env.RESAS_API_KEY,
+    SITE_URL: process.env.SITE_URL,
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -9,7 +15,7 @@ export default {
   head: {
     title: 'population-pj',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
@@ -28,6 +34,11 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '@/plugins/resas', ssr: true, },
+    {
+      src: '@/plugins/highcharts-vue',
+      mode: 'client',
+    },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
