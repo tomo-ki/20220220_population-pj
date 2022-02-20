@@ -10,33 +10,33 @@
 4. 人口構成APIレスポンスから、X軸:年、Y軸:人口数の折れ線グラフを動的に生成して表示する
 
 ## 制約
--React/Vue.js/Angularのいずれかを用いてSPAを構築すること（バージョンはできるだけ最新版をご使用ください）
-React（ https://reactjs.org/ ）
-Vue（ https://vuejs.org/index.html ）
-Angular（ https://angular.io/ ）Nuxt.jsやNext.jsなどの、これらを内包したフレームワークの利用も許可する
-Nuxt.jsやNext.jsなどの、これらを内包したフレームワークの利用も許可する
+- React/Vue.js/Angularのいずれかを用いてSPAを構築すること（バージョンはできるだけ最新版をご使用ください）
+- React（ https://reactjs.org/ ）
+- Vue（ https://vuejs.org/index.html ）
+- Angular（ https://angular.io/ ）Nuxt.jsやNext.jsなどの、これらを内包したフレームワークの利用も許可する
+- Nuxt.jsやNext.jsなどの、これらを内包したフレームワークの利用も許可する
 
--都道府県一覧および総人口情報はRESAS APIのデータを用いること
--グラフは Highcharts や Rechart.js などのサードパーティ製のグラフライブラリを用いて描画すること
+- 都道府県一覧および総人口情報はRESAS APIのデータを用いること
+- グラフは Highcharts や Rechart.js などのサードパーティ製のグラフライブラリを用いて描画すること
 ただし、グラフライブラリは上記のものに限らず、任意のものを用いてよい
--Google Chrome最新版で正しく動くこと
--PC/スマートフォン表示に対応すること(レスポンシブデザイン対応)
+- Google Chrome最新版で正しく動くこと
+- PC/スマートフォン表示に対応すること(レスポンシブデザイン対応)
 ただし実機でなく、Google Chromeの検証ツールで確認できればよい
--リンターやフォーマッターを適切に設定すること
+- リンターやフォーマッターを適切に設定すること
 リンターにはESLint、フォーマッターにはPrettierを使用すること
--styleは自分で記述し、CSS・UIフレームワークなどは原則使用しないこと
+- styleは自分で記述し、CSS・UIフレームワークなどは原則使用しないこと
 ただし、chartライブラリ内包のstyle、リセット系のCSSライブラリについてはこの限りではない
 また、css-in-jsやcss-modules、sassなどのエコシステムの利用を妨げるものではなく、あくまでcssの記述力を測る趣旨に留まる
--リードエンジニア・テックリード応募の場合は、以下も制約に加える
+- リードエンジニア・テックリード応募の場合は、以下も制約に加える
 TypeScriptで記述すること
--テストケース/テストコードを作成すること
+- テストケース/テストコードを作成すること
 テストツールは任意のものを用いてよい
 テスト実行時にエラーが発生しないこと
 
 ## 参考
--RESAS API: https://opendata.resas-portal.go.jp/
--RESAS API仕様書: https://opendata.resas-portal.go.jp/docs/api/v1/index.html
--Highcharts: https://www.highcharts.com/
+- RESAS API: https://opendata.resas-portal.go.jp/
+- RESAS API仕様書: https://opendata.resas-portal.go.jp/docs/api/v1/index.html
+- Highcharts: https://www.highcharts.com/
 
 
 ## Build Setup
