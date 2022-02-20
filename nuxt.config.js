@@ -2,7 +2,6 @@ export default {
 
   publicRuntimeConfig: {
     RESAS_API_KEY: process.env.RESAS_API_KEY,
-    SITE_URL: process.env.SITE_URL,
   },
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
